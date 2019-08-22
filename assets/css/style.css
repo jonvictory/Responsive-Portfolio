@@ -214,25 +214,34 @@ ul.nav {
 }
   .menu {
     text-align: center;
-    height: 100%;
-    width: 50%;
+    height: 70%;
+    width: 100%;
 
     }
 
+    ul.nav {
+        list-style-type: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        overflow: visible;
+        background-color: #ffffff;
+        height: 50%;
+        vertical-align: text-top;
+      }
+
     li.nav {
-        float: left;
+        
         height: 100%;
       }
       
       li.nav a {
-        display: block;
         color: #333;
         font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
         font-size: 15px;
         text-align: center;
-
         text-decoration: none;
         height: 100%;
+        padding: 0 10px 0 10px;
       }
 
     .name {
@@ -256,5 +265,18 @@ ul.nav {
   .meimg {
       width: 100%;
       display: block;    
+}
+
+footer {
+    background-color: #666666;
+    border-top: solid;
+    border-color:  #4aaaa5;
+    Border-width: 4px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
 }
 }
