@@ -185,20 +185,100 @@ ul.nav {
     
 @media screen and (max-width: 980px) {
   .left, .main, .right {
-    width: 100%;
+    width: 90%;
   }
+    .wrapper {
+        background-color: #ffffff;
+        border-color: #cfcece;
+        border-bottom: solid;
+        border-width: 1px;
+        height: 90px;
+        width: 100%
+    }
+    
+    .namecontainer {
+        max-width: 900px;
+        margin: 0;
+        height: 100%;
+    
+    }
+    
+    .name {
+        background-color: #4aaaa5;
+        text-align: center;
+        color: white;
+        padding-left: 5px;
+        padding-right: 0px;
+        float: left;
+        height: 100%;
+    }
+    
+    .menu {
+    
+    text-align: right;
+    vertical-align: center;
+    height: 100%;
+    }
+footer {
+    background-color: #666666;
+    border-top: solid;
+    border-color:  #4aaaa5;
+    Border-width: 4px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
-
+}
 @media screen and (max-width: 768px) {
     .left, .main, .right {
       width: 90%;
     }
-    .footer {
-        height: 50%;
+    .wrapper {
+        background-color: #ffffff;
+        border-color: #cfcece;
+        border-bottom: solid;
+        border-width: 1px;
+        height: 90px;
+        width: 100%
     }
-
-  }
-
+    
+    .namecontainer {
+        max-width: 720px;
+        margin: 0 auto;
+        height: 100%;
+    
+    }
+    
+    .name {
+        background-color: #4aaaa5;
+        text-align: center;
+        color: white;
+        padding-left: 5px;
+        padding-right: 5px;
+        float: left;
+        height: 100%;
+    }
+    
+    .menu {
+    float: right;
+    text-align: right;
+    vertical-align: center;
+    height: 100%;
+    }
+footer {
+    background-color: #666666;
+    border-top: solid;
+    border-color:  #4aaaa5;
+    Border-width: 4px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+}
 @media screen and (max-width: 640px) {
   .left, .main, .right, .footer, .namecontainer, .name {
     width: 80%;
